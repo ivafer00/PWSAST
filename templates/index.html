@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>{{app_name}}</title>
+    <!-- Bootstrap core CSS -->
+    <script src="/assets/bootstrap.min.js"></script>
+    <link href="/assets/bootstrap.min.css" rel="stylesheet">
+
+    <script src="/assets/jquery-3.7.0.min.js"></script>
+    <style>
+        html, body
+        {
+            width:100%;
+            height:100%;
+        }
+    </style>
+    <style id="vvvebjs-styles">section > .container-fluid > .row.no-gutter > .d-none.d-md-flex.col-md-4.col-lg-6.bg-image {background-image: url("/assets/logo.png")}section > .container-fluid > .row.no-gutter > footer > .container > h6 {font-weight: 300;text-align: center;}section > .container-fluid > .row.no-gutter > .d-none.d-md-flex.col-md-4.bg-image.col-lg-8 {background-image: url("/assets/logo.png");background-color: rgb(255, 255, 255);}  section > .container-fluid {background-color: rgb(255, 255, 255);}  section > .container-fluid > .row.no-gutter > .d-none.d-md-flex.col-md-4.bg-image.col-lg-7 {background-image: url('/assets/logo.png');}  section > .container-fluid > .row.no-gutter > .col-md-8.col-lg-4 > .login.d-flex.align-items-center.py-5 > .container {background-color: #ffffff;border-top-right-radius: 15px;border-top-left-radius: 15px;border-bottom-left-radius: 15px;border-bottom-right-radius: 15px;margin-top: 0px;padding-right: 10%;opacity: 1;top: auto;padding-top: 25%;padding-left: 10%;padding-bottom: 25%;}</style></head>
+<body>
+<!-- Page Content -->
+
+
+
+<section data-name="sigin-split">
+    <div class="container-fluid">
+        <div class="row no-gutter">
+            <div class="d-none d-md-flex col-md-4  bg-image  col-lg-7"></div>
+            <div class="      col-md-8 col-lg-4">
+                <div class="login d-flex align-items-center py-5">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-9 col-lg-8 mx-auto">
+                                <h3 class="login-heading mb-4">Powershell SAST</h3>
+                                <form action="/upload" method="post" enctype="multipart/form-data">
+                                    <div class="form-label-group">
+                                        <p><label for="script">Script:</label><input type="file" name="script" id="script"></p>
+                                    </div>
+                                    <br>
+                                    <button class="btn btn-lg btn-primary btn-section btn-login text-uppercase font-weight-bold mb-2" type="submit">Scan script</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row no-gutter">
+            <footer>
+                <div class="container">
+                    <h6>© 2024 PAMcake Cybersecurity Solutions</h6>
+                </div>
+            </footer>
+        </div>
+        <style>
+            .login,
+            .image {
+                min-height: 97vh;
+            }
+
+            .bg-image {
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+
+            .login-heading {
+                font-weight: 300;
+            }
+
+            .btn-login {
+                font-size: 0.9rem;
+                letter-spacing: 0.05rem;
+                padding: 0.75rem 1rem;
+                border-radius: 2rem;
+            }
+
+            .form-label-group {
+                position: relative;
+                margin-bottom: 1rem;
+            }
+
+            .form-label-group>input,
+            .form-label-group>label {
+                padding: 1rem 1rem;
+                height: auto;
+                border-radius: 2rem;
+            }
+
+            .form-label-group>label {
+                position: absolute;
+                top: 0;
+                left: 0;
+                display: block;
+                width: 100%;
+                margin-bottom: 0;
+                line-height: 1.5;
+                color: #495057;
+                cursor: text;
+                /* Match the input under the label */
+                border: 1px solid transparent;
+                border-radius: .25rem;
+                transition: all .1s ease-in-out;
+            }
+
+            .form-label-group input::-webkit-input-placeholder {
+                color: transparent;
+            }
+
+            .form-label-group input:-ms-input-placeholder {
+                color: transparent;
+            }
+
+            .form-label-group input::-ms-input-placeholder {
+                color: transparent;
+            }
+
+            .form-label-group input::-moz-placeholder {
+                color: transparent;
+            }
+
+            .form-label-group input::placeholder {
+                color: transparent;
+            }
+
+            .form-label-group input:not(:placeholder-shown) {
+                padding-top: calc(var(--input-padding-y) + var(--input-padding-y) * (2 / 3));
+                padding-bottom: calc(var(--input-padding-y) / 3);
+            }
+
+            .form-label-group input:not(:placeholder-shown)~label {
+                padding-top: 0.5;
+                padding-bottom: 0.5;
+                font-size: 12px;
+                color: #777;
+            }
+        </style>
+    </div>
+</section></body></html>

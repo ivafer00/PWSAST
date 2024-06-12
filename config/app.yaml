@@ -1,0 +1,11 @@
+app:
+  name: "Powershell SAST"
+  host: "127.0.0.1"
+  port: "443"
+db:
+  name: "prueba"
+  username: "user"
+  password: "1234"
+tls:
+  cert_path: "./certs/servidor_pruebas.pem"
+  key_path: "./certs/servidor_pruebas.key"
